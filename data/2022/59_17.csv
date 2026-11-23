@@ -1,0 +1,8 @@
+Metric,Without Clustering,With Clustering,Change (pp),Status
+Accuracy (%),69.271,70.275,1.004,Improved
+Precision Macro (%),66.65,67.261,0.61,Improved
+Recall Macro (%),70.48,71.091,0.61,Improved
+F1-Macro (%),66.477,67.331,0.854,Improved
+Balanced Accuracy (%),70.48,71.091,0.61,Improved
+ROC-AUC (%),78.355,78.672,0.317,Improved
+Minimum Class Recall (%),67.78,69.27,1.49,Improved

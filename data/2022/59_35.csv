@@ -1,0 +1,18 @@
+Parameter,Value
+Final Model Sequence,DBSCAN -> Random Forest -> Neural Network
+DBSCAN Filtering,Q95
+Original Encoded Features,862
+Selected RF Features,6
+Feature Reduction (%),99.3
+Training Records Retained,10616
+Training Records Removed,136
+K-Means Applied,False
+Number of Clusters,0
+Final NN Input Features,6
+Hidden Layers,"(128, 64)"
+Learning Rate,0.0001
+Activation,relu
+Regularization Alpha,0.001
+Oversampling Ratio,0.9
+Decision Threshold,0.56
+Selection Status,All optimization constraints satisfied

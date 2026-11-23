@@ -1,0 +1,7 @@
+Dimension,Before (%),After (%),Change (pp),Interpretation
+Completeness,82.271,74.264,-8.007,Hidden missing or invalid values exposed
+Validity,99.596,100.0,0.404,Improved among observed values
+Consistency,100.0,99.472,-0.528,Decreased - requires review
+Accuracy,Not Available,Not Available,Not Available,Not Assessable
+Timeliness,Not Available,Not Available,Not Available,Not Assessable
+Uniqueness,100.0,100.0,0.0,Unchanged

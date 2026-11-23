@@ -1,0 +1,12 @@
+Item,Value
+Research Title,Data Quality Assessment Framework for FSN
+Dataset,[UMK] DATA ANAK 2023(2).xlsx
+Original Records,61377
+Original Attributes,21
+Target Variable,STATUS PEMAKANAN
+Training Records,10470
+Validation Records,2618
+Testing Records,3273
+Total Modelling Records,16361
+Minority Class,normal
+Majority Class,mal pemakanan

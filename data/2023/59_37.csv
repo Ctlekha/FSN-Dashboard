@@ -1,0 +1,9 @@
+Metric,Validation (%),Testing (%),Test - Validation (pp)
+Accuracy,74.102,74.122,0.019
+Precision Macro,68.043,67.989,-0.054
+Recall Macro,68.542,68.309,-0.234
+F1-Macro,68.275,68.142,-0.134
+Balanced Accuracy,68.542,68.309,-0.234
+Minority Recall,55.951,55.142,-0.809
+Majority Recall,81.134,81.475,0.341
+ROC-AUC,76.319,77.165,0.846

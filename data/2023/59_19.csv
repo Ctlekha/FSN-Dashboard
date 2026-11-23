@@ -1,0 +1,9 @@
+Metric,Baseline (%),Reference (%),Optimized (%),Change vs Baseline (pp),Change vs Reference (pp)
+Accuracy,75.592,75.974,74.102,-1.49,-1.872
+Precision Macro,70.161,70.014,68.043,-2.117,-1.971
+Recall Macro,61.991,64.938,68.542,6.551,3.604
+F1-Macro,63.106,66.255,68.275,5.169,2.02
+Balanced Accuracy,61.991,64.938,68.542,6.551,3.604
+Minority Recall,31.19,39.945,55.951,24.761,16.005
+Majority Recall,92.793,89.931,81.134,-11.659,-8.797
+ROC-AUC,75.985,75.701,76.319,0.334,0.618

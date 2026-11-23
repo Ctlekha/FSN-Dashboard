@@ -1,0 +1,13 @@
+Metric,Before,After,Change
+Total Records,60737.0,60737.0,0.0
+Missing Cells,223009.0,322749.0,99740.0
+Invalid Numeric Values,381.0,0.0,-381.0
+Duplicate Records,0.0,0.0,0.0
+Repeated Record IDs,0.0,0.0,0.0
+Consistency Violations,0.0,335.0,335.0
+Consistency Coverage (%),26.567,26.253,-0.314
+Valid Numeric Coverage (%),50.836,50.836,0.0
+Unavailable Target Records,43916.0,43916.0,0.0
+Target Availability (%),27.695,27.695,0.0
+Binary Eligible Records,16800.0,16800.0,0.0
+Binary Coverage (%),27.66,27.66,0.0
