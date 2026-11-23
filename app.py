@@ -32,8 +32,8 @@ if page=="Overview":
     eligible=raw[raw.Category.isin(["Normal","Malnutrition"])].copy()
     colors={"Error / No Data":"#F87171","Malnutrition":"#3B82F6","Normal":"#22C55E","Out of Range":"#CBD5E1"}
     def donut(d,title):
-       fig = px.pie(d, names="Category", values="Count", color="Category", color_discrete_map=colors, hole=.68)
-       fig.update_traces(sort=False)
+        fig = px.pie(d, names="Category", values="Count", color="Category", color_discrete_map=colors, hole=.68)
+        fig.update_traces(sort=False)
         fig.update_traces(textinfo="percent",hovertemplate="%{label}: %{value:,} (%{percent})<extra></extra>")
         fig.add_annotation(text=f"<b>{int(d.Count.sum()):,}</b><br>records",x=.5,y=.5,showarrow=False,font=dict(size=17,color="#0F172A"))
         fig.update_layout(title=dict(text=title,x=.5,font=dict(size=16)),template="plotly_white",height=360,legend=dict(orientation="h",y=-.08),margin=dict(t=55,b=60,l=15,r=15))
